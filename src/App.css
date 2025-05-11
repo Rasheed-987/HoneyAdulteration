@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 45 100% 96%;
+    --foreground: 36 30% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 36 30% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 36 30% 20%;
+
+    --primary: 43 100% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 43 100% 96%;
+    --secondary-foreground: 36 30% 20%;
+
+    --muted: 43 30% 96%;
+    --muted-foreground: 36 5% 45%;
+
+    --accent: 43 100% 96%;
+    --accent-foreground: 36 30% 20%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 43 30% 90%;
+    --input: 43 30% 90%;
+    --ring: 43 100% 50%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 36 30% 8%;
+    --foreground: 43 30% 96%;
+
+    --card: 36 30% 12%;
+    --card-foreground: 43 30% 96%;
+
+    --popover: 36 30% 12%;
+    --popover-foreground: 43 30% 96%;
+
+    --primary: 43 100% 50%;
+    --primary-foreground: 36 30% 8%;
+
+    --secondary: 36 30% 15%;
+    --secondary-foreground: 43 30% 96%;
+
+    --muted: 36 30% 15%;
+    --muted-foreground: 36 5% 65%;
+
+    --accent: 36 30% 15%;
+    --accent-foreground: 43 30% 96%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 43 30% 96%;
+
+    --border: 36 30% 20%;
+    --input: 36 30% 20%;
+    --ring: 43 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Honeycomb background pattern */
+.honeycomb-bg {
+  background-color: #fff8e1;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0l15 26.25L30 52.5 15 26.25 30 0z' fill='%23FFC107' fill-opacity='0.1' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
