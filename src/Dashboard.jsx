@@ -22,7 +22,7 @@ function Dashboard() {
             allowFullScreen={true}
             className="w-full h-full"
           ></iframe> */}
-          <iframe title="Multiclass" width="1140" height="541.25" src="https://app.fabric.microsoft.com/reportEmbed?reportId=332e3b93-15c7-4896-bdf7-697661b83a72&autoAuth=true&ctid=37c1124c-2d89-4d5a-b2a3-0d9ebfab148a" frameborder="0" allowFullScreen="true"></iframe>
+          {/* <iframe title="Multiclass" width="1140" height="541.25" src="https://app.fabric.microsoft.com/reportEmbed?reportId=332e3b93-15c7-4896-bdf7-697661b83a72&autoAuth=true&ctid=37c1124c-2d89-4d5a-b2a3-0d9ebfab148a" frameborder="0" allowFullScreen="true"></iframe> */}
         </div>
         <div className="mt-4 flex justify-end">
           <a
