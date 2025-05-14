@@ -28,7 +28,7 @@ function PredictionForm() {
     setError("")
 
     try {
-      const response = await axios.post("/predict", formData, {
+      const response = await axios.post("http://18.175.119.33:5000/predict", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },

@@ -1,15 +1,4 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-
 export default defineConfig({
+  base: '/',
   plugins: [react()],
-  server: {
-    proxy: {
-      '/predict': {
-        target: 'http://18.175.119.33:5000',
-        changeOrigin: true,
-        secure: false,
-      },
-    },
-  },
 })
