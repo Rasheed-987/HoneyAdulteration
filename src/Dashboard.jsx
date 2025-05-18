@@ -11,7 +11,7 @@ function Dashboard() {
           <h2 className="text-2xl font-bold text-honey-800">Power BI Report</h2>
           <p className="text-honey-600">Interactive visualization of honey adulteration data</p>
         </div>
-        <div className="aspect-video w-full overflow-hidden rounded-md border border-honey-200">
+        <div className="aspect-video w-full overflow-hidden rounded-md border">
           {/* <iframe
             title="Multiclass"
             width="100%"
@@ -23,17 +23,9 @@ function Dashboard() {
             className="w-full h-full"
           ></iframe> */}
           {/* <iframe title="Multiclass" width="1140" height="541.25" src="https://app.fabric.microsoft.com/reportEmbed?reportId=332e3b93-15c7-4896-bdf7-697661b83a72&autoAuth=true&ctid=37c1124c-2d89-4d5a-b2a3-0d9ebfab148a" frameborder="0" allowFullScreen="true"></iframe> */}
-        </div>
-        <div className="mt-4 flex justify-end">
-          <a
-            href="https://app.powerbi.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm text-honey-600 hover:text-honey-800 flex items-center"
-          >
-            Open in Power BI
-            <span className="ml-1">↗️</span>
-          </a>
+        <img src="Multiclass_page-0001.jpg" alt="Multiclass PDF Preview"  />
+
+
         </div>
       </div>
     </div>

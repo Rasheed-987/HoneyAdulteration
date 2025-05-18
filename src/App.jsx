@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-// import Dashboard from "./Dashboard"
-// import PredictionForm from "./PredictionForm"
+import Dashboard from "./Dashboard"
+import PredictionForm from "./PredictionForm"
 import Navbar from "./Navbar"
 import "./styles.css"
 
@@ -11,8 +11,8 @@ function App() {
         <Navbar />
         <main className="flex-1 container mx-auto py-6 px-4">
           <Routes>
-            {/* <Route path="/" element={<Dashboard />} /> */}
-            {/* <Route path="/prediction" element={<PredictionForm />} /> */}
+            <Route path="/" element={<Dashboard />} />
+            <Route path="/prediction" element={<PredictionForm />} />
           </Routes>
         </main>
       </div>
